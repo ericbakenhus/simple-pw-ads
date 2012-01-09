@@ -1,0 +1,173 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Simple PW Ads\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-10-04 11:44-0600\n"
+"PO-Revision-Date: 2011-10-04 11:44-0600\n"
+"Last-Translator: Big Bagel <bigbagel@interruptedreality.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html__;esc_attr_e;esc_attr__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../simple_pw_ads.php:145
+msgid "Malformed managed Simple PW Ads shortcode"
+msgstr ""
+
+#: ../simple_pw_ads.php:162
+msgid "Simple PW Ads Error"
+msgstr ""
+
+#: ../simple_pw_ads.php:168
+msgid "There are no ads. Check the Simple PW Ads management page."
+msgstr ""
+
+#: ../simple_pw_ads.php:179
+msgid "Empty call to Simple PW Ads"
+msgstr ""
+
+#: ../simple_pw_ads.php:200
+msgid "No such legacy ad"
+msgstr ""
+
+#: ../simple_pw_ads.php:204
+msgid "Malformed call to Simple PW Ads"
+msgstr ""
+
+#: ../simple_pw_ads.php:208
+msgid "That is not a number"
+msgstr ""
+
+#: ../simple_pw_ads.php:212
+msgid "That is not a valid ad number"
+msgstr ""
+
+#: ../simple_pw_ads.php:227
+msgid "No such ad"
+msgstr ""
+
+#: ../simple_pw_ads.php:242
+msgid "Too many PW ads"
+msgstr ""
+
+#: ../simple_pw_ads.php:253
+msgid "Cannot call same ad twice if not async"
+msgstr ""
+
+#: ../simple_pw_ads.php:322
+msgid "Simple PW widget set to display nothing"
+msgstr ""
+
+#: ../simple_pw_ads.php:348
+msgid "Title"
+msgstr ""
+
+#: ../simple_pw_ads.php:353
+msgid "Your ad:"
+msgstr ""
+
+#: ../simple_pw_ads.php:366
+msgid "No ads. Please see the management page."
+msgstr ""
+
+#: ../spw-includes/admin.php:68
+msgid "Simple PW Ads"
+msgstr ""
+
+#: ../spw-includes/admin.php:79
+msgid "Insert your publisher ID/member number. You can find this in your Project Wonderful account by selecting \"My account > My profile\" and looking directly below your member name: \"Member XXXX\". Simple PW Ads will download and manage all your ads."
+msgstr ""
+
+#: ../spw-includes/admin.php:86
+msgid "Publisher ID"
+msgstr ""
+
+#: ../spw-includes/admin.php:92
+msgid "Display ads using"
+msgstr ""
+
+#: ../spw-includes/admin.php:95
+msgid "Standard Code (will not show without JavaScript)"
+msgstr ""
+
+#: ../spw-includes/admin.php:96
+msgid "Advanced Code (will show without JavaScript)"
+msgstr ""
+
+#: ../spw-includes/admin.php:101
+msgid "Use asynchronous code (recommended)"
+msgstr ""
+
+#: ../spw-includes/admin.php:108
+msgid "Last successful sync"
+msgstr ""
+
+#: ../spw-includes/admin.php:121
+#: ../spw-includes/admin.php:135
+msgid "Ad Number"
+msgstr ""
+
+#: ../spw-includes/admin.php:122
+#: ../spw-includes/admin.php:136
+msgid "Ad ID"
+msgstr ""
+
+#: ../spw-includes/admin.php:123
+#: ../spw-includes/admin.php:137
+msgid "Type Number"
+msgstr ""
+
+#: ../spw-includes/admin.php:124
+#: ../spw-includes/admin.php:138
+msgid "Type"
+msgstr ""
+
+#: ../spw-includes/admin.php:125
+#: ../spw-includes/admin.php:139
+msgid "Dimensions"
+msgstr ""
+
+#: ../spw-includes/admin.php:126
+#: ../spw-includes/admin.php:140
+msgid "Rating"
+msgstr ""
+
+#: ../spw-includes/admin.php:127
+#: ../spw-includes/admin.php:141
+msgid "Category"
+msgstr ""
+
+#: ../spw-includes/admin.php:128
+#: ../spw-includes/admin.php:142
+msgid "Site Name"
+msgstr ""
+
+#: ../spw-includes/admin.php:129
+#: ../spw-includes/admin.php:143
+msgid "URL"
+msgstr ""
+
+#: ../spw-includes/admin.php:130
+#: ../spw-includes/admin.php:144
+msgid "PW Page"
+msgstr ""
+
+#: ../spw-includes/admin.php:159
+msgid "Synchronize Ad Data"
+msgstr ""
+
+#: ../spw-includes/admin.php:206
+msgid "The SimpleXML PHP extention has been disabled. It is enabled by default in PHP version 5.1.2 and later. Ask your host to enabled it. | Ad data not updated."
+msgstr ""
+
+#: ../spw-includes/admin.php:286
+msgid "ERROR: No ads found for that publisher ID/member number."
+msgstr ""
+
+#: ../spw-includes/admin.php:292
+msgid "ERROR: Could not parse xml. | Ad data not updated."
+msgstr ""
+
