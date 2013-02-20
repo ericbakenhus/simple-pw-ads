@@ -3,8 +3,8 @@ Contributors: Big Bagel
 Donate link: http://interruptedreality.com/plugins/simple-pw-ads/
 Tags: ad, ads, advertising, Project Wonderful, widget, shortcode, template tag
 Requires at least: 3.2
-Tested up to: 3.3
-Stable tag: 3.0.2
+Tested up to: 3.5.1
+Stable tag: 3.0.3
 
 Provides easy ways to place Project Wonderful ads on your site.
 
@@ -51,6 +51,10 @@ This plugin is actively maintained and will remain so until the universe implode
 2. The management page.
 
 == Changelog ==
+
+= 3.0.3 =
+* Code refactoring.
+* Tested with WP 3.5.1.
 
 = 3.0.2 =
 * Minor bug squashing; accidentally used "<?" instead of "<?php" in one spot.

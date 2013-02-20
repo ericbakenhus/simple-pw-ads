@@ -12,7 +12,7 @@ class simple_pw_admin {
 	* @since 2.0.0
 	* @package simple_pw_ads
 	*/
-	function __construct() {
+	public function __construct() {
 		add_action( 'admin_menu', array( __CLASS__, 'add_admin_page' ) );
 		add_action( 'admin_init', array( __CLASS__, 'add_admin_init' ) );
 	}
@@ -23,7 +23,7 @@ class simple_pw_admin {
 	* @since 2.0.0
 	* @package simple_pw_admin
 	*/
-	function add_admin_page() {
+	public function add_admin_page() {
 		add_options_page( 'Simple PW Ads', 'Simple PW Ads', 'manage_options', 'simple_pw_ads', array( __CLASS__, 'options_page' ) );
 	}
 	
@@ -33,7 +33,7 @@ class simple_pw_admin {
 	* @since 2.0.0
 	* @package simple_pw_admin
 	*/
-	function add_admin_init() {
+	public function add_admin_init() {
 		register_setting( 'saved_spw_ads', 'saved_spw_ads', array( __CLASS__, 'validate_ads' ) );
 	}
 	
@@ -43,7 +43,7 @@ class simple_pw_admin {
 	* @since 2.0.0
 	* @package simple_pw_admin
 	*/
-	function options_page() {
+	public function options_page() {
 		if ( ! current_user_can( 'manage_options' ) ) {
 			wp_die( 'You do not have permission to access that page.', 'Get off my lawn!' );
 		}
@@ -172,7 +172,7 @@ class simple_pw_admin {
 	* @param	str	$pub_id	The Project Wonderful publisher ID.
 	* @return	array	Returns and array containing all the values downloaded from Project Wonderful or a smaller array with the index ['error'] set on error.
 	*/
-	function set_ad_data( $pub_id, $old_options = false ) {
+	public function set_ad_data( $pub_id, $old_options = false ) {
 		$options['pub_id'] = $pub_id;
 		$options['error'] = false;
 		
@@ -304,7 +304,7 @@ class simple_pw_admin {
 	* @param	str	$input	User input.
 	* @return	str		Validated input.
 	*/
-	function validate_ads( $input ) {
+	public function validate_ads( $input ) {
 		$options = get_option( 'saved_spw_ads' );
 		
 		if ( empty( $options ) ) {
